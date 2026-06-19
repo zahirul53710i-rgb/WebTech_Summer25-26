@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+</head>
+<body>
+    <div class="container">
+
+    
+
+    <h1>User Registration Form</h1>
+
+    <form>
+        <div class="container 1">
+        <fieldset>
+            <legend>Personal Information </legend>
+        <table>
+            <tr>
+                <td><label for="FirstName">First Name*</label></td>
+                <td>
+                    <input type="text" id="FirstName" name="FirstName">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="LastName">Last Name*</label></td>
+                <td>
+                    <input type="text" id="LastName" name="LastName">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="DOB">Date of Birth*</label></td>
+                <td>
+                    <input type="date" id="DOB" name="DOB">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Gender*</td>
+                <td>
+                    <input type="radio" id="PatientMale" name="Gender" value="Male">
+                    <label for="PatientMale">Male</label>
+                    <input type="radio" id="PatientFemale" name="Gender" value="Female">
+                    <label for="PatientFemale">Female</label>
+                    <input type="radio" id="Other" name="Gender" value="Other">
+                    <label for="Other">Other</label>
+                </td>
+            </tr>
+
+            </table>
+        </fieldset>
+        </div>
+
+        <div class="container 2">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <table>
+
+            <tr>
+                <td><label for="UserEmail">Email Address*</label></td>
+                <td>
+                    <input type="email" id="UserEmail" name="UserEmail">
+                </td>
+            </tr>
+
+            
+
+            <tr>
+                <td><label for="UserPhone">Phone Number*</label></td>
+                <td>
+                    <input type="tel" id="UserPhone" name="UserPhone" >
+                </td>
+            </tr>
+
+            
+
+            <tr>
+                <td><label for="Address">Address*</label></td>
+                <td>
+                    <textarea id="Address" name="Address" rows="5" cols="20" Style= "resize:none" placeholder="Enter your full address"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for= "patientcitizen"> Country</label></td>
+                <td>
+                    <select id="country"> 
+                    <option id ="Default" value="Default"> -------- Select Country ----- </option>
+                    <option id ="BD" value="Bangladesh"> Bangladesh </option>
+                    <option id ="UK" value="UnitedKingdom"> United Kingdom </option>
+                    <option id ="Brazil" value="Brazil"> Brazil </option>
+                    </select>
+                </td>
+            </tr>
+
+           </table>
+        </fieldset>
+        </div>
+
+        <div class="container 3">
+        <fieldset>
+            <legend> Account Information </legend>
+            <table>
+                <tr> 
+                <td> <label for="username"> User Name* </label> </td>
+                <td> <input type="text" id="username" name="username"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="password"> Password* </label> </td>
+                    <td> <input type="password" id="password" name="password"> </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="Conpassword">Confirm  Password* </label> </td>
+                    <td> <input type="Conpassword" id="Conpassword" name="Conpassword"> </td>
+                </tr>
+            </table>
+        </fieldset>
+        <div
+
+        <div class="container 4">
+        <fieldset>
+            <legend>Preferences</legend>
+            <table>
+                <tr>
+                    <td>Interests</td>
+                    <td>
+                        <input type="checkbox" id="Sports" name="Sports" value="Sports">
+                        <label for="Sports">Sports</label>
+                        <input type="checkbox" id="Music" name="Music" value="Music">
+                        <label for="Music">Music</label>
+                        <br>
+                        <input type="checkbox" id="Reading" name="Reading" value="Reading">
+                        <label for="Reading">Reading</label>
+                        <input type="checkbox" id="Technology" name="Technology" value="Technology">
+                        <label for="Technology">Technology</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="Condition" name="Condition">
+                        <label for="Condition"> I Agree Terms and Condition * </font></label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        </div>
+
+        <input type="button" id="Register" name="Register" value="Register">
+        <input type="reset" id="reset" name="reset" value="Clear Form">
+        
+            
+        
+    </form>
+</div>
+</body>
+</html>
